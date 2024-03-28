@@ -24,6 +24,24 @@
   .img-top-ss1 {
     display: none !important;
   }
+  .ss1-trai-img {
+    margin: auto 0;
+    min-width: 626px;
+    height: 409px;
+    position: absolute;
+    left: 100px;
+  }
+  .ss1-section .bg-css-text {
+    background-image: url("./img/bg-text-xang-trong.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    mix-blend-mode: screen;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-90%);
+    height: 5px;
+    width: 300px;
+  }
 }
 @media (max-width: 990px) {
   .ss1-section .container {
@@ -41,11 +59,7 @@
   .content-ss1 {
     position: relative;
   }
-  .ss1-trai-img {
-    width: 100%;
-    height: 409px;
-    margin-bottom: 30px;
-  }
+
   .ss1-section .container .ss1-top .col-md-6 {
     display: flex;
     justify-content: center;
@@ -101,6 +115,19 @@
   .ss2-section .container .list-tinh-nang {
     grid-template-columns: 1fr;
     padding-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .ss1-section .bg-css-text {
+    background-image: url("./img/bg-text-xang-trong.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    mix-blend-mode: screen;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-82%);
+    height: 5px;
+    width: 300px;
   }
 }
 .ss1-section {
@@ -225,6 +252,7 @@
 }
 .sale-price p {
   margin: 3px 0;
+  white-space: nowrap;
 }
 .sale-price p span {
   color: rgb(244, 68, 55);
@@ -297,17 +325,7 @@
     transform: translateX(30%);
   }
 }
-.ss1-section .bg-css-text {
-  background-image: url("./img/bg-text-xang-trong.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  mix-blend-mode: screen;
-  background-size: cover;
-  left: 50%;
-  transform: translateX(-100%);
-  height: 5px;
-  width: 300px;
-}
+
 .img-top-ss1 {
   position: relative;
   width: fit-content;
