@@ -104,3 +104,20 @@ footer {
 .css-ul {
   list-style-type: none;
 }
+@media (max-width: 991px) {
+  .main-button i {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 25%;
+    font-size: 20px;
+    color: rgb(203, 203, 203);
+    transform: translate(0%, -50%);
+    animation: slider 0.5s linear infinite;
+  }
+}
+@media (max-width: 550px) {
+  .main-button i {
+    display: none;
+  }
+}
