@@ -1,6 +1,13 @@
 .bigger {
   animation: pulse 1s infinite 1s;
 }
+html {
+  scroll-behavior: smooth;
+}
+a:hover {
+  background-color: #ffffff;
+  border-radius: 30px;
+}
 @keyframes pulse {
   0% {
     -webkit-transform: scale(1);

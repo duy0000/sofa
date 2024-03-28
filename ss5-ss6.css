@@ -92,6 +92,7 @@
   align-items: center;
   padding: 20px;
   border-radius: 10px;
+  margin: auto;
 }
 .stopwatch div div {
   height: 60px;
@@ -128,10 +129,6 @@ form .form-group input::placeholder {
 }
 .ss6-section {
   margin: auto;
-}
-.ss6-section .container {
-  display: grid;
-  grid-template-columns: 400px 1fr;
 }
 
 .ss6-section .sale-ss6 .img-and-slider {
