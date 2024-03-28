@@ -1,0 +1,106 @@
+.bigger {
+  animation: pulse 1s infinite 1s;
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+img {
+  width: 100%;
+}
+section,
+footer {
+  background-color: rgb(24, 22, 33);
+}
+.main-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px; */
+}
+.main-button .btn-main-dathang,
+.main-button .btn-dathang {
+  min-width: 210px;
+  min-height: 49px;
+  cursor: pointer;
+}
+.btn-dathang {
+  position: relative;
+}
+.btn-dathang p::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  background-color: #ffffff;
+  z-index: 9;
+  top: 0;
+  right: 0;
+}
+.main-button i {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  left: 35%;
+  font-size: 20px;
+  color: rgb(203, 203, 203);
+  transform: translate(0%, -50%);
+  animation: slider 0.5s linear infinite;
+}
+@keyframes slider {
+  0%,
+  100% {
+    transform: translate(0, -50%);
+  }
+  50% {
+    transform: translate(120%, -50%);
+  }
+}
+.bg-css-text {
+  background-image: url("./img/bg-text-xang-trong.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  mix-blend-mode: screen;
+  background-size: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 7px;
+  width: 300px;
+  margin-top: -30px;
+  padding-bottom: 30px;
+}
+.css-text {
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(
+    to right,
+    rgb(221, 189, 162),
+    white,
+    rgb(221, 189, 162)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(221, 189, 162, 0.5);
+  font-weight: 700;
+}
+.css-ul {
+  list-style-type: none;
+}

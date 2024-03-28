@@ -1,0 +1,55 @@
+footer {
+  padding-top: 50px;
+}
+footer .container {
+  width: 80%;
+  border-bottom: 1px solid #777;
+}
+footer .container .row div {
+  color: #fff;
+}
+footer .container .row .css-ul {
+  padding: 0;
+}
+footer .container .row .css-ul li {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 15px;
+  line-height: 35px;
+}
+footer .container .row .css-ul li i,
+footer .container .row .css-ul li svg {
+  margin-right: 5px;
+}
+.thanh-toan img {
+  width: 36px;
+  height: 36px;
+}
+.thanh-toan img:first-child {
+  padding: 5px;
+  width: 47px;
+
+  height: 36px;
+}
+.thanh-toan {
+  background-color: #fff;
+  width: fit-content;
+  padding: 0px 15px;
+  margin: auto;
+}
+.list-service {
+  display: flex;
+  justify-content: space-between;
+}
+.content-footer {
+  font-weight: 700;
+  font-size: 18px;
+}
+.copyright {
+  color: #bdbdbd;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
