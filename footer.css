@@ -2,7 +2,6 @@ footer {
   padding-top: 50px;
 }
 footer .container {
-  width: 80%;
   border-bottom: 1px solid #777;
 }
 
@@ -25,7 +24,7 @@ footer .container .row .css-ul li svg {
 }
 .thanh-toan img {
   width: 36px;
-  height: 36px;
+  height: 26px;
 }
 .thanh-toan img:first-child {
   padding: 5px;
